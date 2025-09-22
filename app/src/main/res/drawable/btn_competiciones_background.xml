@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Imagen de fondo base -->
+    <item>
+        <bitmap
+            android:src="@drawable/sagenorthcutt"
+            android:gravity="fill" />
+    </item>
+    <!-- Imagen superpuesta con transparencia -->
+    <item>
+        <bitmap
+            android:src="@drawable/sagenorthcutt"
+            android:gravity="fill"
+            android:alpha="0.5" />
+    </item>
+</layer-list>
